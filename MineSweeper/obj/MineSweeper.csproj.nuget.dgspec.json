@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Shubham Mali\\Projects\\CIG test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj": {}
+    "D:\\Shubham Mali\\Projects\\GIC test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj": {}
   },
   "projects": {
-    "D:\\Shubham Mali\\Projects\\CIG test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj": {
+    "D:\\Shubham Mali\\Projects\\GIC test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shubham Mali\\Projects\\CIG test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj",
+        "projectUniqueName": "D:\\Shubham Mali\\Projects\\GIC test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj",
         "projectName": "MineSweeper",
-        "projectPath": "D:\\Shubham Mali\\Projects\\CIG test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj",
+        "projectPath": "D:\\Shubham Mali\\Projects\\GIC test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\MineSweeper.csproj",
         "packagesPath": "C:\\Users\\p1346539\\.nuget\\packages\\",
-        "outputPath": "D:\\Shubham Mali\\Projects\\CIG test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\obj\\",
+        "outputPath": "D:\\Shubham Mali\\Projects\\GIC test\\Solution\\Git\\MinesweeperApp\\MineSweeper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\p1346539\\AppData\\Roaming\\NuGet\\NuGet.Config",

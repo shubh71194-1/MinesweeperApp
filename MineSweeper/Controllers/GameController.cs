@@ -51,12 +51,13 @@ namespace MineSweeper.Controllers
 
                 if (_minesweeperService.IsGameOver()) // check for game over
                 {
+                    RevealAllCells(gridSize);
                     _view.DisplayMessage(Resources.MessageResources.GameOverMessage+"\n\n");
                     break;
                 }
                 else if (_minesweeperService.IsGameWon()) // check for game won
                 {
-                    DisplayMinefield();
+                    RevealAllCells(gridSize);
                     _view.DisplayMessage(Resources.MessageResources.GameWonMessage + "\n\n");
                     break;
                 }
@@ -137,6 +138,18 @@ namespace MineSweeper.Controllers
         {
             _view.DisplayMessage("\n"+ Resources.MessageResources.MinefieldTitle);
             _view.DisplayMessage(_minesweeperService.GetMinefieldDisplay());
+        }
+
+        private void RevealAllCells(int gridSize)
+        {
+            for (int row = 0; row < gridSize; row++)
+            {
+                for (int col = 0; col < gridSize; col++)
+                {
+                    _minesweeperService.RevealCell(row, col);
+                }
+            }
+            DisplayMinefield();
         }
 
         /// <summary>

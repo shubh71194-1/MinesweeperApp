@@ -107,6 +107,7 @@ namespace MineSweeper.Models
             // Game over for mine field selection
             if (_minefield[row, col] == Constants.Constants.MineValue)
             {
+                _revealedCells[row, col] = true;
                 _gameOver = true;
             }
             else

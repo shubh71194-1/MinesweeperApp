@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h/8UCk9HtkqUNv1skXVaUtJ0h0pO3Vu6QhG+lcRkpqBybO8QoodjrZiwMQcAO44FFXvO4lo5QdYC3qBDfj9WqQ==",
+  "dgSpecHash": "hJ2HmnZHrpKYuSKcRxPQxjRpN8/vwbYi633vXYX9tBhd7jc2IHbgSeiGpqVYKdNe9EbFofKs+asiujTILXxcUA==",
   "success": true,
-  "projectFilePath": "D:\\Shubham Mali\\Projects\\CIG test\\Solution\\Git\\MinesweeperApp\\MineSweeper.Tests\\MineSweeper.Tests.csproj",
+  "projectFilePath": "D:\\Shubham Mali\\Projects\\GIC test\\Solution\\Git\\MinesweeperApp\\MineSweeper.Tests\\MineSweeper.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p1346539\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\p1346539\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
