@@ -140,6 +140,10 @@ namespace MineSweeper.Controllers
             _view.DisplayMessage(_minesweeperService.GetMinefieldDisplay());
         }
 
+        /// <summary>
+        /// To reveal all grid cells once game is won or over
+        /// </summary>
+        /// <param name="gridSize"></param>
         private void RevealAllCells(int gridSize)
         {
             for (int row = 0; row < gridSize; row++)
